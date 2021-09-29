@@ -11,4 +11,5 @@
     <string name="amount">Amount</string>
     <string name="view_transaction">View Transaction</string>
     <string name="view_balance1">View Balance</string>
+    <string name="share">SHARE</string>
 </resources>

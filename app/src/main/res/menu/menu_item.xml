@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <group android:checkableBehavior="single">
+
+    <!--we are using  app:showAsAction="ifRoom" so that share
+        button is added in toolbar. -->
+    <item
+        android:id="@+id/shareButton"
+        android:icon="@drawable/ic_share_black"
+        android:title="@string/share"
+        app:showAsAction="ifRoom" />
+
     <item
         android:id="@+id/viewBalanceFragment"
         android:title="@string/view_balance1" />
     <item
         android:id="@+id/viewTransactionFragment"
         android:title="@string/view_transaction" />
-    </group>
 </menu>
