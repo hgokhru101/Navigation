@@ -9,11 +9,10 @@
         android:icon="@drawable/ic_share_black"
         android:title="@string/share"
         app:showAsAction="ifRoom" />
-
     <item
-        android:id="@+id/viewBalanceFragment"
+        android:id="@+id/viewBalance"
         android:title="@string/view_balance1" />
     <item
-        android:id="@+id/viewTransactionFragment"
+        android:id="@+id/viewTransaction"
         android:title="@string/view_transaction" />
 </menu>

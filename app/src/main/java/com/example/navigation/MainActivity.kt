@@ -61,6 +61,12 @@ class MainActivity : AppCompatActivity() {
                 sharingIntent.putExtra(Intent.EXTRA_SUBJECT, shareSubject)
                 startActivity(Intent.createChooser(sharingIntent, "Share using"))
             }
+            R.id.viewBalance -> {
+                navController!!.navigate(R.id.action_mainFragment_to_viewBalanceFragment);
+            }
+            R.id.viewTransaction -> {
+                navController!!.navigate(R.id.action_mainFragment_to_viewTransactionFragment);
+            }
         }
         return super.onOptionsItemSelected(item)
     }
